@@ -1,0 +1,9 @@
+.git
+.gitattributes
+.gitignore
+.assetsignore
+.vscode
+.wrangler
+node_modules
+wrangler.jsonc
+README.md

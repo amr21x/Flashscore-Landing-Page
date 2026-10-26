@@ -1,0 +1,13 @@
+{
+  "name": "flashscore-landing-page",
+  "compatibility_date": "2026-10-27",
+  // Static site: serve the repo root as assets (exclusions live in .assetsignore)
+  "assets": {
+    "directory": "."
+  },
+  // Attaches flashscore.amr21.dev to this Worker and creates the DNS record on deploy
+  "routes": [
+    { "pattern": "flashscore.amr21.dev", "custom_domain": true }
+  ],
+  "workers_dev": false
+}
